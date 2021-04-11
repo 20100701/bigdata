@@ -1,0 +1,26 @@
+author = "Alexandre Linte, Gaëtan Allain"
+
+baseurl = "https://20100701.github.io/bigdata/"
+theme           = "hugo-webslides"
+languageCode = "fr-FR"
+title = "Big Data overview"
+
+[params]
+  author = "RCJacH"
+  homepage = "RCJacH.github.io"
+
+[params.webslides]
+  banner = false
+  slideshow = true
+  vertical = false
+  autoslide = false
+  changeOnClick = false
+  disableLoop = false
+  minWheelDelta = 40
+  disableNavigateOnScroll = false
+  scrollWait = 450
+  slideOffset = 50
+  hideIndex = false
+
+[blackfriday]
+extensionsmask = ["autoHeaderIds"]
