@@ -1,4 +1,4 @@
-author = "Alexandre Linte, Gaëtan Allain"
+
 
 baseurl = "https://20100701.github.io/bigdata/"
 theme           = "hugo-webslides"
@@ -6,8 +6,7 @@ languageCode = "fr-FR"
 title = "Big Data overview"
 
 [params]
-  author = "RCJacH"
-  homepage = "RCJacH.github.io"
+  author = "Alexandre Linte, Gaëtan Allain"
 
 [params.webslides]
   banner = false
@@ -22,5 +21,8 @@ title = "Big Data overview"
   slideOffset = 50
   hideIndex = false
 
-[blackfriday]
-extensionsmask = ["autoHeaderIds"]
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
