@@ -7,7 +7,7 @@ title = "Big Data Overview"
 
 {{< div class="content-center" >}}
 # **Big Data Overview**
-[{{% fontawesome github %}}Github](https://20100701.github.io/bigdata/)
+[{{% fontawesome github %}} Github](https://20100701.github.io/bigdata/)
 {{< /div >}}
 
 ---
