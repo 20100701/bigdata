@@ -13,15 +13,21 @@ title = "Big Data Overview"
 ---
 <!-- Slide 2 -->
 {{< div class="content-left" >}}
-### Avant-propos
+#### Avant-propos
+<small>
 *Ce contenu a pour objectif de faire découvrir les concepts de ce que l'on appelle le "Big Data". Certains aspects sont simplifiés dans le but de rester compréhensible par un public voulant appréhender ce sujet sans en devenir des experts.*
+</small>
 
-### Contexte
+#### Contexte
+<small>
 Ce contenu a été créé pour les étudiants de la licence <a href="https://uniform.unicaen.fr/catalogue/formation/licences-pro/5236-licence-pro-metiers-informatique---administration-securite-systemes-et-reseaux-parcours-audit-securite-reseaux-sys-info?s=iut-caen&r=1291046129051">Audit et Sécurité des Réseaux et des Systèmes d'Information</a> (aka ASRSI) de l'<a href="http://www.unicaen.fr/">Université de Caen</a>.
+</small>
 
-### Objectif
+#### Objectif
+<small>
 Ce contenu doit permettre aux étudiants d'appréhender les concepts du Big Data ainsi que les solutions techniques misent en œuvre.<br>
 Il sert donc de support pour un module d'enseignement du Big Data aussi bien pour les parties théoriques que pratiques. Il limite au maximum le temps passé sur la phase de déploiement des environnements afin de laissé le plus de temps possible à la compréhension du Big Data et aux échanges entre étudiants et formateurs.
+</small>
 {{< /div >}}
 
 
