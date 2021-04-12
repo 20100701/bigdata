@@ -223,7 +223,7 @@ Ce composant stocke et restitue les blocs de données. Lors du processus de lect
 ---
 <!-- Slide 18 -->
 <!--: .wrap -->
-## L'opération d'écriture
+## HDFS : opération d'écriture
 
 ![hdfs-WRITE](https://20100701.github.io/bigdata/static/images/hdfs-WRITE.png)
 
@@ -232,7 +232,7 @@ Ce composant stocke et restitue les blocs de données. Lors du processus de lect
 ---
 <!-- Slide 19 -->
 <!--: .wrap -->
-## L'opération de lecture 
+## HDFS : opération de lecture 
 
 ![hdfs-READ](https://20100701.github.io/bigdata/static/images/hdfs-READ.png)
 
@@ -267,25 +267,17 @@ Il exécute une partie du traitement de l’application, il remonte son état au
 ---
 <!-- Slide 21 -->
 <!--: .wrap -->
-# Interactions
+# YARN : interactions
 ![yarn](https://20100701.github.io/bigdata/static/images/yarn.png)
 
+---
+<!-- Slide 22 -->
+<!--: .wrap -->
+# Synthèse Hadoop
+Ci-dessous un exemple de ce que pourrait être un cluster Hadoop minimal composé d'un Master et de trois Nodes.
 
+![hadoop_synthese](https://20100701.github.io/bigdata/static/images/hadoop_synthese.png)
 
-<!--
-ampoule 
-https://cdn.pixabay.com/photo/2016/03/09/10/37/light-bulb-1246043_960_720.jpg
-
-
-42
-https://images.unsplash.com/photo-1606238630091-1564f645695a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80
-
-
-
-
-
-
-
-
-
--->
+---
+<!-- Slide 23 -->
+<!--: .wrap -->
