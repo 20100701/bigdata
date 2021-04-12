@@ -64,7 +64,7 @@ Pour entrapercevoir le monde du Big Data voici quelques chiffres :<br>
 Avec les années, l'écosystème du Big Data est devenu de plus en plus important et il est maintenant associé à celui de l'intelligence artificielle, comme présenté ci-dessous.
 
 <!--: .flexblock gallery -->
-- {{< gallery title="landscape" href="https://20100701.github.io/bigdata/static/images/landscape 2020 big data.png" src="https://20100701.github.io/bigdata/static/images/landscape 2020 big data.png" >}}{{< /gallery >}}
+- {{< gallery title="landscape" href="https://20100701.github.io/bigdata/static/images/landscape.png" src="https://20100701.github.io/bigdata/static/images/landscape.png" >}}{{< /gallery >}}
 
 ---
 <!-- Slide 6 -->
