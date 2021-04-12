@@ -4,6 +4,7 @@ baseurl = "https://20100701.github.io/bigdata/"
 theme           = "hugo-webslides"
 languageCode = "fr-FR"
 title = "Big Data overview"
+features = ["webslides.js", "pre-made template", "shortcodes"]
 
 [params]
   author = "Alexandre Linte, Gaëtan Allain"

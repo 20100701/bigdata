@@ -211,31 +211,64 @@ Hadoop fait parti d'un écosystème Big Data ou il existe énormément de soluti
 <A href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html">HDFS</A> est un système de fichiers distribué, extensible et portable développé par Hadoop à partir du <A href="https://fr.wikipedia.org/wiki/Google_File_System">GoogleFS</A>.  
 Écrit en Java, il a été conçu pour stocker de très gros volumes de données sur un grand nombre de machines équipées de disques durs banalisés. Il permet l'abstraction de l'architecture physique de stockage, afin de manipuler un système de fichiers distribué comme s'il s'agissait d'un disque dur unique.
 
-# Les composants HDFS
+### Les composants HDFS
 Une architecture système de fichier HDFS repose sur deux types de composants majeurs : le **namenode** et le **datanode**.
 
-## Namenode
+#### Namenode
 Ce composant gère l'espace de noms, l'arborescence du système de fichiers et les métadonnées des fichiers et des répertoires. Il centralise la localisation des blocs de données répartis dans le cluster. 
 
-## Datanode
+#### Datanode
 Ce composant stocke et restitue les blocs de données. Lors du processus de lecture d'un fichier, le NameNode est interrogé pour localiser l'ensemble des blocs de données. Pour chacun d'entre-eux, le NameNode renvoie l'adresse du DataNode le plus accessible, c'est-à-dire le DataNode qui dispose de la plus grande bande passante. Les DataNodes communiquent de manière périodique au NameNode la liste des blocs de données qu'ils hébergent. Si certains de ces blocs ne sont pas assez répliqués dans le cluster, l'écriture de ces blocs s'effectue en cascade par copie sur d'autres.
 
-# Les opérations (concepts)
+---
+<!-- Slide 18 -->
+<!--: .wrap -->
+## L'opération d'écriture
 
-## Ecriture
+![hdfs-WRITE](https://20100701.github.io/bigdata/static/images/hdfs-WRITE.png)
 
-![hdfs-WRITE](uploads/0d4d5ca1062cf5b4151a8df786e3894a/hdfs-WRITE.png)
+<br><small>*Note : une fois l'opération d'écriture effectuée, le Namenode mets à jour les metadata après avoir interroger les différents Datanodes. Ce mécanisme se déroule régulièrement ce qui permet au Namenode de garantir la cohérence des données stockées dans le système de fichier HDFS et leurs emplacements.*</small>
 
-*Note : une fois l'opération d'écriture effectuée, le Namenode mets à jour les metadata après avoir interroger les différents Datanodes. Ce mécanisme se déroule régulièrement ce qui permet au Namenode de garantir la cohérence des données stockées dans le système de fichier HDFS et leurs emplacements.*
+---
+<!-- Slide 19 -->
+<!--: .wrap -->
+## L'opération de lecture 
 
-## Lecture
+![hdfs-READ](https://20100701.github.io/bigdata/static/images/hdfs-READ.png)
 
-![hdfs-READ](uploads/8707b176eaf44d68bb4f5f02b3fd09f5/hdfs-READ.png)
+---
+<!-- Slide 20 -->
+<!--: .wrap -->
+# Yarn en quelques mots
+<A href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</A> (ou MRV2) est un gestionnaire de ressources. Son rôle est d’attribuer des ressources d'un cluster (CPU & mémoire) sous forme de conteneurs à une application demandeuse.
+<br>*Note : une application demandeuse est un traitement qui s'exécute sur le cluster.*
 
+### Les composants
 
+Dans YARN, 2 composants entrent en jeu : le ResourceManager (RM) et le NodeManager (NM), ce couple de composants forme un système générique pour gérer les applications distribuées. 
 
+#### ResourceManager
+Ce composant gère l’ensemble des ressources du cluster, c’est lui qui a autorité pour attribuer les ressources aux applications demandeuses.
+Il embarque un ordonnanceur qui priorise l’attribution des ressources aux différentes applications en accord avec certains paramètres définis au niveau du cluster (queue, limite, …).
 
+#### NodeManager
+Ce composant est présent sur chaque machine du cluster (comme le Datanode du HDFS), il surveille les ressources disponibles sur le nœud et remonte un état de ce dernier périodiquement au ResourceManager. Il est également en charge du lancement et de l’exécution des conteneurs. Il en existe deux types : ApplicationMaster et Container.
 
+#### ApplicationMaster
+Lorsque une application est lancée sur la cluster, le RessourceManager commence par demander l’instanciation d’un conteneur maître, l'Application Master qui va être en charge de : 
+* réserver les ressources nécessaires à l’exécution de l’application auprès du ResourceManager
+* suivre l’état de chaque conteneur de l’application
+* gérer les échecs et relances de certains conteneurs
+* fournir l’état global de l‘application au ResourceManager
+
+#### Container
+Il exécute une partie du traitement de l’application, il remonte son état auprès de son ApplicationMaster.
+
+---
+<!-- Slide 21 -->
+<!--: .wrap -->
+# Interactions
+![yarn](https://20100701.github.io/bigdata/static/images/yarn.png)
 
 
 
