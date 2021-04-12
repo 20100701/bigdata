@@ -204,9 +204,33 @@ Hadoop fait parti d'un écosystème Big Data ou il existe énormément de soluti
 <br><small>*crédits : Mercy (Ponnupandy) Beckham (2017)*</small>
 
 ---
+<!-- Slide 17 -->
+<!--: .wrap -->
 
+# HDFS en quelques mots
+<A href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html">HDFS</A> est un système de fichiers distribué, extensible et portable développé par Hadoop à partir du <A href="https://fr.wikipedia.org/wiki/Google_File_System">GoogleFS</A>.  
+Écrit en Java, il a été conçu pour stocker de très gros volumes de données sur un grand nombre de machines équipées de disques durs banalisés. Il permet l'abstraction de l'architecture physique de stockage, afin de manipuler un système de fichiers distribué comme s'il s'agissait d'un disque dur unique.
 
+# Les composants HDFS
+Une architecture système de fichier HDFS repose sur deux types de composants majeurs : le **namenode** et le **datanode**.
 
+## Namenode
+Ce composant gère l'espace de noms, l'arborescence du système de fichiers et les métadonnées des fichiers et des répertoires. Il centralise la localisation des blocs de données répartis dans le cluster. 
+
+## Datanode
+Ce composant stocke et restitue les blocs de données. Lors du processus de lecture d'un fichier, le NameNode est interrogé pour localiser l'ensemble des blocs de données. Pour chacun d'entre-eux, le NameNode renvoie l'adresse du DataNode le plus accessible, c'est-à-dire le DataNode qui dispose de la plus grande bande passante. Les DataNodes communiquent de manière périodique au NameNode la liste des blocs de données qu'ils hébergent. Si certains de ces blocs ne sont pas assez répliqués dans le cluster, l'écriture de ces blocs s'effectue en cascade par copie sur d'autres.
+
+# Les opérations (concepts)
+
+## Ecriture
+
+![hdfs-WRITE](uploads/0d4d5ca1062cf5b4151a8df786e3894a/hdfs-WRITE.png)
+
+*Note : une fois l'opération d'écriture effectuée, le Namenode mets à jour les metadata après avoir interroger les différents Datanodes. Ce mécanisme se déroule régulièrement ce qui permet au Namenode de garantir la cohérence des données stockées dans le système de fichier HDFS et leurs emplacements.*
+
+## Lecture
+
+![hdfs-READ](uploads/8707b176eaf44d68bb4f5f02b3fd09f5/hdfs-READ.png)
 
 
 
