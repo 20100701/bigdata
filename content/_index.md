@@ -78,7 +78,9 @@ La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs v
 - le débits des réseaux : les capacités des réseaux (LAN, MAN, WAN, câbles sous-marins, liaisons satellites) augmentent en permanence<br>
 - les domaines utilisant des objets connectés : de plus en plus de domaine utilisent des objets connectés comme le médical, la domotique, les télécommunications, la finance, l'agriculture, … L'illustration ci-dessous montre bien la croissance rapide du domaine de l'IoT (Internet of Things), ce qui permet de comprendre l'accélération de la création et la récolte des données.<br>
 
+
 ![croissance IoT](https://www.cisco.com/c/dam/en_us/about/security/images/csc_child_pages/white_papers/iot-figure1.jpg)
+
 
 ---
 <!-- Slide 7 -->
@@ -167,4 +169,66 @@ Il est à noter un autre avantage, il est très facile d'augmenter le nombre de 
 
 ---
 <!-- Slide 13 -->
+<!--: .wrap bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
+# QUESTION ?
+
+---
+<!-- Slide 14 -->
+<!--: .wrap bg=bg-black bg=left bgimage=https://yubigeek.s3.eu-west-3.amazonaws.com/615/responsive-images/3394fcd0-21eb-411b-83d0-b618bcc65dac___media_library_original_1791_1266.jpeg -->
+
+---
+<!-- Slide 15 -->
 <!--: .wrap -->
+
+# Apache Hadoop, c'est quoi ?
+Il existe un grand nombre de solution de Big Data, nous avons choisi de commencer par étudier la solution <a href=https://hadoop.apache.org/>Hadoop</a> car c'est l'une des solutions les plus utilisées (quelques exemples d'utilisation d'Hadoop <a href=https://cwiki.apache.org/confluence/display/HADOOP2/PoweredBy>ici</a>).
+
+### ![logo Hadoop](https://hadoop.apache.org/elephant.png) La solution Hadoop
+Apache Hadoop est une solution écrite en Java qui a pour but de faciliter les traitements distribués sur de grande quantité de donnée. Elle est composée de plusieurs modules (common, hdfs, yarn, mapreduce, ...).Pour cela elle s'appuie sur une architecture en cluster qui passent à l'échelle (hyperscale).
+
+Mais Hadoop n'est pas composé d'un cluster mais en fait de deux clusters qui fonctionnent en parallèle :<br>
+- Hadoop Distributed File System (**HDFS**) : pour gérer les ressources de stockage (disk) et les données déposées dans le système de fichier.<br>
+- Yet Another Ressource Negociator (**YARN**) : pour gérer les ressources de calcul (cpu + ram) et les traitements qui s'exécutent sur le cluster.<br>
+
+### Deux clusters indépendants
+Pourquoi dit-on qu'**HDFS et YARN fonctionnent indépendamment l'un de l'autre** ?
+Parce qu'il est possible d'utiliser uniquement HDFS, par exemple, il est possible de stocker des données sur HDFS pour des besoins d'archivage, sans jamais avoir besoin d'effectuer des traitements YARN sur ces données. Inversement, les traitements exécutés sur YARN peuvent ne pas avoir besoin d'utiliser des données stockées sur HDFS comme les calculs mathématiques (ex : le calcul des décimales de PI).
+
+---
+<!-- Slide 16 -->
+<!--: .wrap -->
+# Écosystème Hadoop
+Hadoop fait parti d'un écosystème Big Data ou il existe énormément de solution technique. L'illustration ci-dessous propose la vision de Mercy (Ponnupandy) Beckham de cet écosystème.
+
+![écosystème Hadoop](https://mydataexperiments.files.wordpress.com/2017/04/hadoop-ecosystem.png)
+<br><small>*crédits : Mercy (Ponnupandy) Beckham (2017)*</small>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+<!--
+ampoule 
+https://cdn.pixabay.com/photo/2016/03/09/10/37/light-bulb-1246043_960_720.jpg
+
+
+42
+https://images.unsplash.com/photo-1606238630091-1564f645695a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80
+
+
+
+
+
+
+
+
+
+-->
