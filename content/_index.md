@@ -280,4 +280,6 @@ Ci-dessous un exemple de ce que pourrait Ãªtre un cluster Hadoop minimal composÃ
 
 ---
 <!-- Slide 23 -->
-<!--: .wrap -->
+<!--: .wrap bg=bg-white bg=aligncenter bgimage=https://images.unsplash.com/photo-1583791031153-d55e79f7f115?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80 -->
+# Thank you for your attention
+
