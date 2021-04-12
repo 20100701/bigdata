@@ -139,17 +139,32 @@ Mais dans l'univers du Big Data, les clusters peuvent atteindre plusieurs millie
 <!-- Slide 10 -->
 <!--: .wrap -->
 # Le réseau
-Un cluster Big Data a besoin de s'appuyer sur un réseau afin de pouvoir récolter les données et les échanger entre les différents nœuds du cluster. Les clusters Big Data manipulent de très grande quantité de donnée, il est donc facile de concevoir que la capacité du réseau à pouvoir transporter rapidement ces données est un enjeu majeur.
+Un cluster Big Data a besoin de s'appuyer sur un réseau afin de pouvoir **récolter** les données et les **échanger** entre les différents nœuds du cluster. Les clusters Big Data manipulent de **très grande quantité de donnée**, il est donc facile de concevoir que la capacité du réseau à pouvoir transporter rapidement ces données est un enjeu majeur.
 Pour répondre à ce besoin l'architecture des réseaux au sein des datacenters évolue pour passer d'un modèle "3 tiers" à un modèle "Spine-leaf".
 
+---
+<!-- Slide 11 -->
+<!--: .wrap -->
+
 ## Architecture réseau "3 tiers"
-Comme son nom l'indique ce modèle est composé de 3 étages de composant réseau (switch). Cette architecture n'est pas adaptée aux exigences du Big Data. En effet, si les serveurs représentent les différents nœuds du cluster, le transfert de donnée entre ces nœuds va transiter jusqu'au "Core switch". De plus, un seul chemin réseau est actif pour atteindre une destination (les liens sont en mode actif/passif). Du fait du volume de donnée manipulé par un cluster Big Data, cette architecture augmente le risque de congestion du réseau ce qui nuira à la performance du cluster Big Data. 
+Comme son nom l'indique ce modèle est composé de **3 étages de composant réseau** (switch). Cette architecture n'est pas adaptée aux exigences du Big Data. En effet, si les serveurs représentent les différents nœuds du cluster, le transfert de donnée entre ces nœuds va **transiter jusqu'au "Core switch"**. De plus, un seul chemin réseau est actif pour atteindre une destination (les liens sont en mode **actif/passif**). Du fait du volume de donnée manipulé par un cluster Big Data, cette architecture augmente le risque de congestion du réseau ce qui nuira à la performance du cluster Big Data. 
 
+{{< div class="content-center" >}}
 ![architecture 3 tiers](https://20100701.github.io/bigdata/static/images/3tiers.png)
+{{< /div >}}
 
+---
+<!-- Slide 12 -->
+<!--: .wrap -->
 ## Architecture réseau "Spine-leaf"
-Cette architecture est composée de 2 étages de composant réseau (switch). En plus de la diminution du nombre de composant, l'intérêt de ce modèle est qu'il permet d'utiliser l'ensemble des liens réseaux en même temps (actif/actif).
-Le résultat est qu'il y a plusieurs chemins réseaux possible (+ de débit) entre 2 nœuds et ils sont plus courts (- de latence).
+Cette architecture est composée de **2 étages de composant réseau** (switch). En plus de la diminution du nombre de composant, l'intérêt de ce modèle est qu'il permet d'utiliser l'ensemble des liens réseaux en même temps (**actif/actif**).
+Le résultat est qu'il y a plusieurs chemins réseaux possible (**+ de débit**) entre 2 nœuds et ils sont plus courts (**- de latence**).
 Il est à noter un autre avantage, il est très facile d'augmenter le nombre de switch. En effet, avec cette topologie l'ajout de switch augmente le nombre de chemin réseau possible est donc diminue le risque de congestion.
 
+{{< div class="content-center" >}}
 ![spine leaf architecture](https://20100701.github.io/bigdata/static/images/spine_leaf_network.png)
+{{< /div >}}
+
+---
+<!-- Slide 13 -->
+<!--: .wrap -->
