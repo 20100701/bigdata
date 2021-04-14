@@ -187,9 +187,9 @@ Il est à noter un autre avantage, il est très facile d'augmenter le nombre de 
 <!--: .wrap -->
 
 # Apache Hadoop, c'est quoi ?
-Il existe un grand nombre de solution de Big Data, nous avons choisi de commencer par étudier la solution <a href=https://hadoop.apache.org/>Hadoop</a> car c'est l'une des solutions les plus utilisées (quelques exemples d'utilisation d'Hadoop <a href=https://cwiki.apache.org/confluence/display/HADOOP2/PoweredBy>ici</a>).
+Il existe un grand nombre de solution de Big Data, nous avons choisi de commencer par étudier la solution <a href=https://hadoop.apache.org>Hadoop</a> car c'est l'une des solutions les plus utilisées (quelques exemples d'utilisation d'Hadoop <a href=https://cwiki.apache.org/confluence/display/HADOOP2/PoweredBy>ici</a>).
 
-### ![logo Hadoop](https://hadoop.apache.org/elephant.png) La solution Hadoop
+### ![logo Hadoop](https://hadoop.apache.org/elephant.png) La solution Hadoop <a href=https://hadoop.apache.org/docs/current>{{% fontawesome book-open %}}</a>
 Apache Hadoop est une solution écrite en Java qui a pour but de faciliter les traitements distribués sur de grande quantité de donnée. Elle est composée de plusieurs modules (common, hdfs, yarn, mapreduce, ...).Pour cela elle s'appuie sur une architecture en cluster qui passent à l'échelle (hyperscale).
 
 Mais Hadoop n'est pas composé d'un cluster mais en fait de deux clusters qui fonctionnent en parallèle :<br>
