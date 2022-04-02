@@ -7,7 +7,7 @@ title = "Big Data Overview"
 <!--: .text-Virgil -->
 Alexandre Linte / Gaëtan Allain
 <br><br>
-# **Big Data Overview** [{{% fontawesome github %}} Github](https://20100701.github.io/bigdata/) <br>
+# **Big Data Overview** <a href=https://20100701.github.io/bigdata>{{% fontawesome github %}}</a><br>
 2021 - 2022<br>
 
 ---
