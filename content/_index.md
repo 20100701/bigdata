@@ -193,8 +193,8 @@ Parce qu'il est possible d'utiliser uniquement HDFS, par exemple, il est possibl
 Hadoop fait parti d'un écosystème Big Data ou il existe énormément de solution technique. L'illustration ci-dessous propose la vision de Mercy (Ponnupandy) Beckham de cet écosystème.
 
 |||
+
 ![écosystème Hadoop](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/10/HADOOP-ECOSYSTEM-Edureka.png)
-<br><small>src : https://www.edureka.co/blog/hadoop-ecosystem</small>
 
 ---
 <!-- Slide 17 -->
@@ -235,11 +235,10 @@ Ce composant stocke et restitue les blocs de données. Lors du processus de lect
 # Yarn en quelques mots
 <A href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</A> (ou MRV2) est un gestionnaire de ressources. Son rôle est d’attribuer des ressources d'un cluster (CPU & mémoire) sous forme de conteneurs à une application demandeuse.*Note : une application demandeuse est un traitement qui s'exécute sur le cluster.*
 
-|||v
 ### Les composants
-
 Dans YARN, 2 composants entrent en jeu : le ResourceManager (RM) et le NodeManager (NM), ce couple de composants forme un système générique pour gérer les applications distribuées. 
 
+|||v
 #### ResourceManager
 Ce composant gère l’ensemble des ressources du cluster, c’est lui qui a autorité pour attribuer les ressources aux applications demandeuses.
 Il embarque un ordonnanceur qui priorise l’attribution des ressources aux différentes applications en accord avec certains paramètres définis au niveau du cluster (queue, limite, …).
