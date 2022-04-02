@@ -72,7 +72,6 @@ Avec les années, l'écosystème du Big Data est devenu de plus en plus importan
 ---
 <!-- Slide 6 -->
 <!--: .wrap -->
-|||v
 
 ## Une tendance qui s'accélère
 La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs vont l'aider en cela :<br>
@@ -82,7 +81,7 @@ La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs v
 - le débits des réseaux : les capacités des réseaux (LAN, MAN, WAN, câbles sous-marins, liaisons satellites) augmentent en permanence<br>
 - les domaines utilisant des objets connectés : de plus en plus de domaine utilisent des objets connectés comme le médical, la domotique, les télécommunications, la finance, l'agriculture, … L'illustration ci-dessous montre bien la croissance rapide du domaine de l'IoT (Internet of Things), ce qui permet de comprendre l'accélération de la création et la récolte des données.<br>
 
-|||
+|||v
 
 ![Accès Internet](https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg)
 
