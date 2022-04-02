@@ -165,7 +165,7 @@ Il est à noter un autre avantage, il est très facile d'augmenter le nombre de 
 
 ---
 <!-- Slide 14 -->
-<!--: .wrap bg=bg-black bg=left bgimage=https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_logo_new.svg -->
+<!--: .wrap bg=center bgimage=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/640px-Hadoop_logo.svg.png -->
 
 ---
 <!-- Slide 15 -->
@@ -188,11 +188,13 @@ Parce qu'il est possible d'utiliser uniquement HDFS, par exemple, il est possibl
 ---
 <!-- Slide 16 -->
 <!--: .wrap -->
+|||v
 # Écosystème Hadoop
 Hadoop fait parti d'un écosystème Big Data ou il existe énormément de solution technique. L'illustration ci-dessous propose la vision de Mercy (Ponnupandy) Beckham de cet écosystème.
 
-![écosystème Hadoop](https://mydataexperiments.files.wordpress.com/2017/04/hadoop-ecosystem.png)
-<br><small>*crédits : Mercy (Ponnupandy) Beckham (2017)*</small>
+|||
+![écosystème Hadoop](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/10/HADOOP-ECOSYSTEM-Edureka.png)
+<br><small>src : https://www.edureka.co/blog/hadoop-ecosystem</small>
 
 ---
 <!-- Slide 17 -->
