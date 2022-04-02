@@ -5,12 +5,10 @@ title = "Big Data Overview"
 <!-- Slide 1 -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://images.unsplash.com/photo-1547190027-9156686aa2f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80 -->
 
-<!--: .wrap .text-landing ..aligncenter -->
-<!--: .text-Virgil -->
-Alexandre Linte / Gaëtan Allain
-<br><br>
-# **Big Data Overview** [{{% fontawesome github %}} Github](https://20100701.github.io/bigdata/)<br>
-2021 - 2022<br>
+{{< div class="content-center" >}}
+# **Big Data Overview**
+[{{% fontawesome github %}} Github](https://20100701.github.io/bigdata/)
+{{< /div >}}
 
 ---
 <!-- Slide 2 -->

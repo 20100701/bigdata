@@ -8,7 +8,7 @@ title = "Hugo-Webslides"
 
 <!--: .text-intro -->Use markdown to write contents and render with [**WebSlides**](https://webslides.tv) to HTML.
 
-[{{< svg fa-github >}}Github](https://github.com/RCJacH/hugo-webslides)
+[{{% fontawesome github %}}Github](https://github.com/RCJacH/hugo-webslides)
 
 ---
 
