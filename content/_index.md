@@ -90,7 +90,7 @@ Dans les principaux acteurs du Big Data, il y a des acteurs du monde de l'IT mai
 Parmi les leaders du domaine, il y a Google, Apple, Facebook, Yahoo!, Amazon , Microsoft mais aussi Netflix, Tesla, Uber, AirBnB ... 
 
 ### Exemples de cas d'usage
-Il y a beaucoup d'exemple de cas d'usage Big Data, ceux qui sont listés ci-dessous ont été choisis car ils ne sont pas liés à des entreprises du monde de l'IT. Ils montrent que dès qu'une entreprise détient un grand nombre de donnée, elle peut en tirer un profit grâce au Big Data, quel que soit son secteur d'activité.
+Il y a beaucoup d'exemple de cas d'usage Big Data, ceux qui sont listés ci-dessous ont été choisis car ils ne sont pas liés à des entreprises du monde de l'IT. Ils montrent que dès qu'une entreprise détient un grand nombre de donnée, elle peut en tirer un profit grâce au Big Data, quel que soit son secteur d'activité.<br>
 <small>
 <br>**Suivi épidémiologique** : Grâce à l'Open Data il est possible de suivre l'évolution de la pandémie de covid-19. (<a href=https://covidtracker.fr>site</a>)
 <br>**Sauvons les Livebox** : Orange a mis en place en 2016 un scénario Big Data lui permettant de limiter le nombre de Livebox foudroyée. (<a href=https://datascience.wp.imt.fr/2016/04/11/livebox-foudroyee-en-spark>article</a>)
@@ -115,7 +115,7 @@ Pour faciliter la mise en œuvre de ces infrastructures Big Data, toutes les **m
 ---
 <!-- Slide 9 -->
 <!--: .wrap -->
-# Les clusters qui passent à l'échelle (hyperscale)
+# Clusters qui passent à l'échelle (hyperscale)
 La notion de cluster est connue dans le monde informatique depuis de très nombreuses années. Il existe pléthore de solution technique qui fonctionne avec des clusters, souvent constituées de 2 à quelques dizaines de machine. 
 
 Mais dans l'univers du Big Data, les clusters peuvent atteindre plusieurs milliers de machine, c'est pour cela que la mention "qui passent à l'échelle" est importante. De par leur taille les clusters Big Data doivent couvrir l'ensemble des exigences suivantes :<br>
@@ -136,25 +136,27 @@ Pour répondre à ce besoin l'architecture des réseaux au sein des datacenters 
 ---
 <!-- Slide 11 -->
 <!--: .wrap -->
-
+|||v
 ## Architecture réseau "3 tiers"
 Comme son nom l'indique ce modèle est composé de **3 étages de composant réseau** (switch). Cette architecture n'est pas adaptée aux exigences du Big Data. En effet, si les serveurs représentent les différents nœuds du cluster, le transfert de donnée entre ces nœuds va **transiter jusqu'au "Core switch"**. De plus, un seul chemin réseau est actif pour atteindre une destination (les liens sont en mode **actif/passif**). Du fait du volume de donnée manipulé par un cluster Big Data, cette architecture augmente le risque de congestion du réseau ce qui nuira à la performance du cluster Big Data. 
 
-{{< div class="content-center" >}}
+|||
+
 ![architecture 3 tiers](https://20100701.github.io/bigdata/static/images/3tiers.png)
-{{< /div >}}
+
 
 ---
 <!-- Slide 12 -->
 <!--: .wrap -->
+|||v
 ## Architecture réseau "Spine-leaf"
 Cette architecture est composée de **2 étages de composant réseau** (switch). En plus de la diminution du nombre de composant, l'intérêt de ce modèle est qu'il permet d'utiliser l'ensemble des liens réseaux en même temps (**actif/actif**).
 Le résultat est qu'il y a plusieurs chemins réseaux possible (**+ de débit**) entre 2 nœuds et ils sont plus courts (**- de latence**).
 Il est à noter un autre avantage, il est très facile d'augmenter le nombre de switch. En effet, avec cette topologie l'ajout de switch augmente le nombre de chemin réseau possible est donc diminue le risque de congestion.
 
-{{< div class="content-center" >}}
+|||
 ![spine leaf architecture](https://20100701.github.io/bigdata/static/images/spine_leaf_network.png)
-{{< /div >}}
+
 
 ---
 <!-- Slide 13 -->
@@ -163,7 +165,7 @@ Il est à noter un autre avantage, il est très facile d'augmenter le nombre de 
 
 ---
 <!-- Slide 14 -->
-<!--: .wrap bg=bg-black bg=left bgimage=https://yubigeek.s3.eu-west-3.amazonaws.com/615/responsive-images/3394fcd0-21eb-411b-83d0-b618bcc65dac___media_library_original_1791_1266.jpeg -->
+<!--: .wrap bg=bg-black bg=left bgimage=https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_logo_new.svg -->
 
 ---
 <!-- Slide 15 -->
