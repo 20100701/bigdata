@@ -236,7 +236,6 @@ Ce composant stocke et restitue les blocs de données. Lors du processus de lect
 <A href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</A> (ou MRV2) est un gestionnaire de ressources. Son rôle est d’attribuer des ressources d'un cluster (CPU & mémoire) sous forme de conteneurs à une application demandeuse.*Note : une application demandeuse est un traitement qui s'exécute sur le cluster.*
 
 ### Les composants
-Dans YARN, 2 composants entrent en jeu : le ResourceManager (RM) et le NodeManager (NM), ce couple de composants forme un système générique pour gérer les applications distribuées. 
 
 |||v
 #### ResourceManager
