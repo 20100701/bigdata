@@ -14,7 +14,7 @@ Alexandre Linte / Gaëtan Allain
 <!-- Slide ABOUT -->
 <!--: .wrap -->
 <!--: .text-Virgil -->
-|||v
+{{< div class="content-left" >}}
 
 #### Avant-propos
 <small>
@@ -26,8 +26,7 @@ Alexandre Linte / Gaëtan Allain
 Ce contenu doit permettre aux étudiants d'appréhender les concepts du Big Data ainsi que les solutions techniques misent en œuvre.<br>
 Il sert donc de support pour un module d'enseignement du Big Data aussi bien pour les parties théoriques que pratiques. Il limite au maximum le temps passé sur la phase de déploiement des environnements afin de laissé le plus de temps possible à la compréhension du Big Data et aux échanges entre étudiants et formateurs.
 </small>
-
-|||
+{{< /div >}}
 
 <figure class="content-right">
   <img alt="Screenshot" src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
@@ -57,9 +56,9 @@ Pour entrapercevoir le monde du Big Data voici quelques chiffres :<br>
 <small>Note : il y a 525 600 minutes dans une année</small>
 
 <!--: .flexblock gallery -->
-- {{< gallery title="2020" href="https://20100701.github.io/bigdata/static/images/internet-minute-2020.jpg" src="https://20100701.github.io/bigdata/static/images/internet-minute-2020.jpg" >}}{{< /gallery >}}
-- {{< gallery title="2019" href="https://20100701.github.io/bigdata/static/images/internet-minute-2019.jpg" src="https://20100701.github.io/bigdata/static/images/internet-minute-2019.jpg" >}}{{< /gallery >}}
-- {{< gallery title="2018" href="https://20100701.github.io/bigdata/static/images/internet-minute-2018.jpg" src="https://20100701.github.io/bigdata/static/images/internet-minute-2018.jpg" >}}{{< /gallery >}}
+- {{< gallery title="2018 2019" href="https://528484-1683244-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/internet-minute-comparison.jpg.webp" src="https://528484-1683244-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/internet-minute-comparison.jpg.webp" >}}{{< /gallery >}}
+- {{< gallery title="2020 2021" href="https://www.idboox.com/wp-content/uploads/2021/07/Internet-1-minute-2021.jpg" src="https://www.idboox.com/wp-content/uploads/2021/07/Internet-1-minute-2021.jpg" >}}{{< /gallery >}}
+
 
 ---
 <!-- Slide 5 -->
