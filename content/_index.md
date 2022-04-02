@@ -67,23 +67,28 @@ Pour entrapercevoir le monde du Big Data voici quelques chiffres :<br>
 Avec les années, l'écosystème du Big Data est devenu de plus en plus important et il est maintenant associé à celui de l'intelligence artificielle, comme présenté ci-dessous.
 
 <!--: .flexblock gallery -->
-- {{< gallery title="landscape" href="https://20100701.github.io/bigdata/static/images/landscape.png" src="https://20100701.github.io/bigdata/static/images/landscape.png" >}}{{< /gallery >}}
+- {{< gallery title="landscape" href="http://46eybw2v1nh52oe80d3bi91u-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Data-and-AI-Landscape-2021-v3-small.jpg" src="http://46eybw2v1nh52oe80d3bi91u-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Data-and-AI-Landscape-2021-v3-small.jpg" >}}{{< /gallery >}}
 
 ---
 <!-- Slide 6 -->
 <!--: .wrap -->
+|||v
 
 ## Une tendance qui s'accélère
 La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs vont l'aider en cela :<br>
 - l'IPv6 : le déploiement de l'IPv6 dans les réseaux opérateurs et d'entreprises va permettre de connecter 667 millions de milliards d'appareils à Internet sur chaque millimètre carré de la surface terrestre.<br>
 - le coût du stockage : nous sommes passé d'un coût du Go en 2000 de 10$ à 0,03$ en 2015 soit une baisse de 99,7% sur 15 ans.<br>
-- le nombre d'internaute : en 2018, 3,8 milliards d'humain utilisent Internet<br>
+- le nombre d'internaute : en 2018, 3,8 milliards d'humain utilisent Internet, 4,1 milliards en 2021.<br>
 - le débits des réseaux : les capacités des réseaux (LAN, MAN, WAN, câbles sous-marins, liaisons satellites) augmentent en permanence<br>
 - les domaines utilisant des objets connectés : de plus en plus de domaine utilisent des objets connectés comme le médical, la domotique, les télécommunications, la finance, l'agriculture, … L'illustration ci-dessous montre bien la croissance rapide du domaine de l'IoT (Internet of Things), ce qui permet de comprendre l'accélération de la création et la récolte des données.<br>
 
+|||
 
-![croissance IoT](https://www.cisco.com/c/dam/en_us/about/security/images/csc_child_pages/white_papers/iot-figure1.jpg)
+![Accès Internet](https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg)
 
+|||
+
+![croissance IoT](https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png)
 
 ---
 <!-- Slide 7 -->
