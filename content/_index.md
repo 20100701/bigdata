@@ -72,14 +72,11 @@ Avec les années, l'écosystème du Big Data est devenu de plus en plus importan
 ---
 <!-- Slide 6 -->
 <!--: .wrap -->
-
 ## Une tendance qui s'accélère
 La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs vont l'aider en cela :<br>
 - l'IPv6 : le déploiement de l'IPv6 dans les réseaux opérateurs et d'entreprises va permettre de connecter 667 millions de milliards d'appareils à Internet sur chaque millimètre carré de la surface terrestre.<br>
-- le coût du stockage : nous sommes passé d'un coût du Go en 2000 de 10$ à 0,03$ en 2015 soit une baisse de 99,7% sur 15 ans.<br>
 - le nombre d'internaute : en 2018, 3,8 milliards d'humain utilisent Internet, 4,1 milliards en 2021.<br>
-- le débits des réseaux : les capacités des réseaux (LAN, MAN, WAN, câbles sous-marins, liaisons satellites) augmentent en permanence<br>
-- les domaines utilisant des objets connectés : de plus en plus de domaine utilisent des objets connectés comme le médical, la domotique, les télécommunications, la finance, l'agriculture, … L'illustration ci-dessous montre bien la croissance rapide du domaine de l'IoT (Internet of Things), ce qui permet de comprendre l'accélération de la création et la récolte des données.<br>
+- ainsi que le débits des réseaux, le coût du stockage et les domaines utilisant des objets connectés (ex : le médical, la domotique, les télécommunications, la finance, l'agriculture, ...)
 
 |||v
 
