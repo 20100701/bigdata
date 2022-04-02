@@ -144,7 +144,6 @@ Comme son nom l'indique ce modèle est composé de **3 étages de composant rés
 
 ![architecture 3 tiers](https://20100701.github.io/bigdata/static/images/3tiers.png)
 
-
 ---
 <!-- Slide 12 -->
 <!--: .wrap -->
@@ -155,8 +154,8 @@ Le résultat est qu'il y a plusieurs chemins réseaux possible (**+ de débit**)
 Il est à noter un autre avantage, il est très facile d'augmenter le nombre de switch. En effet, avec cette topologie l'ajout de switch augmente le nombre de chemin réseau possible est donc diminue le risque de congestion.
 
 |||
-![spine leaf architecture](https://20100701.github.io/bigdata/static/images/spine_leaf_network.png)
 
+![spine leaf architecture](https://20100701.github.io/bigdata/static/images/spine_leaf_network.png)
 
 ---
 <!-- Slide 13 -->
@@ -165,7 +164,8 @@ Il est à noter un autre avantage, il est très facile d'augmenter le nombre de 
 
 ---
 <!-- Slide 14 -->
-<!--: .wrap bg=center bgimage=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/640px-Hadoop_logo.svg.png -->
+<!--: .wrap -->
+![hadoop](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/640px-Hadoop_logo.svg.png)
 
 ---
 <!-- Slide 15 -->
@@ -233,8 +233,7 @@ Ce composant stocke et restitue les blocs de données. Lors du processus de lect
 <!-- Slide 20 -->
 <!--: .wrap -->
 # Yarn en quelques mots
-<A href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</A> (ou MRV2) est un gestionnaire de ressources. Son rôle est d’attribuer des ressources d'un cluster (CPU & mémoire) sous forme de conteneurs à une application demandeuse.
-<br>*Note : une application demandeuse est un traitement qui s'exécute sur le cluster.*
+<A href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</A> (ou MRV2) est un gestionnaire de ressources. Son rôle est d’attribuer des ressources d'un cluster (CPU & mémoire) sous forme de conteneurs à une application demandeuse.*Note : une application demandeuse est un traitement qui s'exécute sur le cluster.*
 
 |||v
 ### Les composants
