@@ -79,7 +79,7 @@ La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs v
 - ainsi que le débits des réseaux, le coût du stockage et les domaines utilisant des objets connectés (ex : le médical, la domotique, les télécommunications, la finance, l'agriculture, ...)
 
 <!--: .flexblock gallery -->
-- {{< gallery title="Accès Internet" href="https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg" src="https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg" >}}{{< /gallery >}}
+- {{< gallery title="Accès Internet" href="https://cdn.statcdn.com/Infographic/images/normal/9775.jpeg" src="https://cdn.statcdn.com/Infographic/images/normal/9775.jpeg" >}}{{< /gallery >}}
 - {{< gallery title="croissance IoT" href="https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png" src="https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png" >}}{{< /gallery >}}
 
 ---
