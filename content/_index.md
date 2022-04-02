@@ -78,13 +78,9 @@ La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs v
 - le nombre d'internaute : en 2018, 3,8 milliards d'humain utilisent Internet, 4,1 milliards en 2021.<br>
 - ainsi que le débits des réseaux, le coût du stockage et les domaines utilisant des objets connectés (ex : le médical, la domotique, les télécommunications, la finance, l'agriculture, ...)
 
-|||v
-
-![Accès Internet](https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg)
-
-|||
-
-![croissance IoT](https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png)
+<!--: .flexblock gallery -->
+- {{< gallery title="Accès Internet" href="https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg" src="https://cdn.statcdn.com/Infographic/images/normal/26337.jpeg" >}}{{< /gallery >}}
+- {{< gallery title="croissance IoT" href="https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png" src="https://www.researchgate.net/publication/332392350/figure/fig2/AS:747069593620480@1555126679190/IoT-growth-chart-by-years.png" >}}{{< /gallery >}}
 
 ---
 <!-- Slide 7 -->
