@@ -794,7 +794,7 @@ body,
 input,
 select,
 textarea {
-  font-family: 'Virgil', 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
+  font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
   font-size: 62.5%; }
 
 body,
@@ -1269,37 +1269,6 @@ figure[class*='text-pull-'] {
   font-family: 'San Francisco';
   font-weight: bold;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
-
-/*=========================================
-2.2. Virgil font (excalidraw handwriting font)
-=========================================== */
-.text-virgil,
-.bg-black {
-  font-family: 'Virgil'; }
-
-/* Ultra Light */
-@font-face {
-  font-family: 'Virgil';
-  font-weight: 100;
-  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
-
-/* Thin */
-@font-face {
-  font-family: 'Virgil';
-  font-weight: 200;
-  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
-
-/* Regular */
-@font-face {
-  font-family: 'Virgil';
-  font-weight: 500;
-  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
-
-/* Bold */
-@font-face {
-  font-family: 'Virgil';
-  font-weight: bold;
-  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
 
 /*=========================================
 3. Header & Footer
@@ -3233,12 +3202,6 @@ Slides - Backgrounds <section class="bg-primary">
 [class*='bg-gradient-'] {
   color: #fff;
   text-shadow: 0 1px 0 #013; }
-
-.bg-virgil,
-  [class*='bg-black'],
-  [class*='bg-gradient-'] {
-    color: rgb(0, 0, 0);
-    text-shadow: 0 1px 0 #013; }
 
 .bg-light p {
   color: #456; }
