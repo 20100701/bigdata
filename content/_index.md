@@ -87,31 +87,21 @@ La croissance du Big Data n'est pas prête de s'arrêter et plusieurs facteurs v
 <!--: .wrap -->
 ### Exemples d'acteur du Big Data
 Dans les principaux acteurs du Big Data, il y a des acteurs du monde de l'IT mais aussi des sociétés dont le cœur de métier est tout autre.
-
 Parmi les leaders du domaine, il y a Google, Apple, Facebook, Yahoo!, Amazon , Microsoft mais aussi Netflix, Tesla, Uber, AirBnB ... 
 
 ### Exemples de cas d'usage
 Il y a beaucoup d'exemple de cas d'usage Big Data, ceux qui sont listés ci-dessous ont été choisis car ils ne sont pas liés à des entreprises du monde de l'IT. Ils montrent que dès qu'une entreprise détient un grand nombre de donnée, elle peut en tirer un profit grâce au Big Data, quel que soit son secteur d'activité.<br>
-<small>
-<br>**Suivi épidémiologique**<br>
-Grâce à l'Open Data il est possible de suivre l'évolution de la pandémie de covid-19. (<a href=https://covidtracker.fr>site</a>)
-<br>**Sauvons les Livebox**<br>
-Orange a mis en place en 2016 un scénario Big Data lui permettant de limiter le nombre de Livebox foudroyée. (<a href=https://datascience.wp.imt.fr/2016/04/11/livebox-foudroyee-en-spark>article</a>)
-<br>**Vue client 360°**<br>
-T-Mobile a mis en place grâce au Big Data une vue client 360° afin de limiter la perte de client. (<a href=https://datafloq.com/read/t-mobile-usa-cuts-downs-churn-rate-with-big-data/512>article</a>)
-<br>**Publicité ciblée**<br>
-Starbuck a mis en place un système de publicité ciblée grâce aux traitements effectués sur les données de ses clients. (<a href=https://www.forbes.com/sites/bernardmarr/2018/05/28/starbucks-using-big-data-analytics-and-artificial-intelligence-to-boost-performance/#4b0acd0165cd>article</a>)
-<br>**Personnalisation des recommandations**<br>
-Spotify utilise le Big Data pour proposer à ses clients les morceaux de musique les plus pertinents en fonction de leur goût. (<a href=https://labs.spotify.com/2016/08/07/commodity-music-ml-services/>article</a>)
-<br>**Sur de bons rails**<br>
-Union Pacific gère les actes de maintenance préventive à l'aide du Big Data et des objets connectés, ce qui a réduit le risque de "déraillement" de ces trains et augmenté la disponibilité des voies. (<a href=https://datafloq.com/read/union-pacific-railroad-turned-industrial-internet-/365>article</a>)
-<br>**Le même jus d'orange**<br>
-Coca Cola mixe des données satellite, de la météo, des récoltes d'orange et beaucoup d'autres pour s'assurer que le goût de leur jus d'orange sera toujours le même quelque soit la période de l'année. (<a href=https://www.forbes.com/sites/bernardmarr/2017/09/18/the-amazing-ways-coca-cola-uses-artificial-intelligence-ai-and-big-data-to-drive-success/#58b6a1d078d2>article</a>)
-<br>**Risque d'agression**<br>
-Rabobank utilise les données de ses distributeurs de billet et d'autres (météo, position, ...) pour calculer le risque de se faire agresser en retirant de l'argent. (<a href=https://datafloq.com/read/with-proof-of-concepts-rabobank-learned-valuable-b/503>article</a>)
-<br>**Assistant agricole**<br>
-John Deere permet aux agriculteurs mesurer différentes activités afin de les aider à prendre les décisions. (<a href=https://www.terre-net.fr/materiel-agricole/tracteur-quad/article/a-quoi-servent-les-solutions-connectees-john-deere-concretement-207-146778.html>article</a>)
-</small>
+
+<br>**Suivi épidémiologique** : Grâce à l'Open Data il est possible de suivre l'évolution de la pandémie de covid-19. (<a href=https://covidtracker.fr>site</a>)
+<br>**Sauvons les Livebox** : Orange a mis en place en 2016 un scénario Big Data lui permettant de limiter le nombre de Livebox foudroyée. (<a href=https://datascience.wp.imt.fr/2016/04/11/livebox-foudroyee-en-spark>article</a>)
+<br>**Vue client 360°** : T-Mobile a mis en place grâce au Big Data une vue client 360° afin de limiter la perte de client. (<a href=https://datafloq.com/read/t-mobile-usa-cuts-downs-churn-rate-with-big-data/512>article</a>)
+<br>**Publicité ciblée** : Starbuck a mis en place un système de publicité ciblée grâce aux traitements effectués sur les données de ses clients. (<a href=https://www.forbes.com/sites/bernardmarr/2018/05/28/starbucks-using-big-data-analytics-and-artificial-intelligence-to-boost-performance/#4b0acd0165cd>article</a>)
+<br>**Personnalisation des recommandations** : Spotify utilise le Big Data pour proposer à ses clients les morceaux de musique les plus pertinents en fonction de leur goût. (<a href=https://labs.spotify.com/2016/08/07/commodity-music-ml-services/>article</a>)
+<br>**Sur de bons rails** : Union Pacific gère les actes de maintenance préventive à l'aide du Big Data et des objets connectés, ce qui a réduit le risque de "déraillement" de ces trains et augmenté la disponibilité des voies. (<a href=https://datafloq.com/read/union-pacific-railroad-turned-industrial-internet-/365>article</a>)
+<br>**Le même jus d'orange** : Coca Cola mixe des données satellite, de la météo, des récoltes d'orange et beaucoup d'autres pour s'assurer que le goût de leur jus d'orange sera toujours le même quelque soit la période de l'année. (<a href=https://www.forbes.com/sites/bernardmarr/2017/09/18/the-amazing-ways-coca-cola-uses-artificial-intelligence-ai-and-big-data-to-drive-success/#58b6a1d078d2>article</a>)
+<br>**Risque d'agression** : Rabobank utilise les données de ses distributeurs de billet et d'autres (météo, position, ...) pour calculer le risque de se faire agresser en retirant de l'argent. (<a href=https://datafloq.com/read/with-proof-of-concepts-rabobank-learned-valuable-b/503>article</a>)
+<br>**Assistant agricole** : John Deere permet aux agriculteurs mesurer différentes activités afin de les aider à prendre les décisions. (<a href=https://www.terre-net.fr/materiel-agricole/tracteur-quad/article/a-quoi-servent-les-solutions-connectees-john-deere-concretement-207-146778.html>article</a>)
+
 
 ---
 <!-- Slide 8 -->
